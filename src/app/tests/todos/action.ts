@@ -19,7 +19,6 @@ export const createTodo = async (formData: FormData) => {
 
 };
 
-
 export const deleteTodo = async (formData: FormData) => {
     try {
         const id = formData.get('id') as string;

@@ -12,7 +12,7 @@ const CreateTodoForm = () => {
             type="text"
             placeholder="Task"
             name="task"
-            className="text-indigo-100"
+            className="text-gray-600  font-semibold"
           />
           <Button type="submit" variant="outline">
             ➕
